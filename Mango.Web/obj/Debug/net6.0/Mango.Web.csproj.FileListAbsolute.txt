@@ -24,3 +24,5 @@ C:\Users\enova\source\repos\MangoRestaurant\Mango.Web\obj\Debug\net6.0\refint\Ma
 C:\Users\enova\source\repos\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.pdb
 C:\Users\enova\source\repos\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.genruntimeconfig.cache
 C:\Users\enova\source\repos\MangoRestaurant\Mango.Web\obj\Debug\net6.0\ref\Mango.Web.dll
+C:\Users\enova\source\repos\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\enova\source\repos\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.csproj.CopyComplete
