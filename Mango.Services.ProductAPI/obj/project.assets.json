@@ -2402,19 +2402,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\enova\\.nuget\\packages\\": {}
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
       "projectName": "Mango.Services.ProductAPI",
-      "projectPath": "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
-      "packagesPath": "C:\\Users\\enova\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Services.ProductAPI\\obj\\",
+      "projectPath": "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
+      "packagesPath": "C:\\Users\\ENovaDev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\enova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ENovaDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2493,7 +2493,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

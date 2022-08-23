@@ -23,6 +23,7 @@ namespace Mango.Services.ProductAPI.Controllers
             {
                 IEnumerable<ProductRequestDto> productRequestDtos = await _productRepository.GetAllProducts();
                 _productResponseDto.Result = productRequestDtos;
+                _productResponseDto.IsSuccess = true;
 
             }
             catch (Exception e)
@@ -42,6 +43,7 @@ namespace Mango.Services.ProductAPI.Controllers
             {
                 ProductRequestDto productRequestDto = await _productRepository.GetProductById(id);
                 _productResponseDto.Result = productRequestDto;
+                _productResponseDto.IsSuccess = true;
             }
             catch (Exception e)
             {
@@ -60,6 +62,7 @@ namespace Mango.Services.ProductAPI.Controllers
                 ProductRequestDto productRequestDtoModel =
                     await _productRepository.CreateUpdateProduct(productRequestDto);
                 _productResponseDto.Result = productRequestDtoModel;
+                _productResponseDto.IsSuccess = true;
             }
             catch (Exception e)
             {
@@ -78,6 +81,7 @@ namespace Mango.Services.ProductAPI.Controllers
                 ProductRequestDto productRequestDtoModel =
                     await _productRepository.CreateUpdateProduct(productRequestDto);
                 _productResponseDto.Result = productRequestDtoModel;
+                _productResponseDto.IsSuccess = true;
             }
             catch (Exception e)
             {
@@ -95,6 +99,7 @@ namespace Mango.Services.ProductAPI.Controllers
             {
                 bool isSuccessDto = await _productRepository.DeleteProduct(id);
                 _productResponseDto.Result = isSuccessDto;
+                _productResponseDto.IsSuccess = true;
             }
             catch (Exception e)
             {
