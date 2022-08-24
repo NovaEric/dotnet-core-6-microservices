@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj": {}
+    "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj": {
+    "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
         "projectName": "Mango.Services.ProductAPI",
-        "projectPath": "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
+        "projectPath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
         "packagesPath": "C:\\Users\\ENovaDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\obj\\",
+        "outputPath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ENovaDev\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Web\\Mango.Web.csproj": {}
+    "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Web\\Mango.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Web\\Mango.Web.csproj": {
+    "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Web\\Mango.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Web\\Mango.Web.csproj",
+        "projectUniqueName": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Web\\Mango.Web.csproj",
         "projectName": "Mango.Web",
-        "projectPath": "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Web\\Mango.Web.csproj",
+        "projectPath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Web\\Mango.Web.csproj",
         "packagesPath": "C:\\Users\\ENovaDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Web\\obj\\",
+        "outputPath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ENovaDev\\AppData\\Roaming\\NuGet\\NuGet.Config",

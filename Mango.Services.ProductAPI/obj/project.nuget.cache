@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TOpo4PvhOKDp4WdpM7xbNko1tsEiSjERq3qypryMOKZWPe2XGUaf9+GZQJ1erU9zGKZfcGMQAX5VnQK3L46Suw==",
+  "dgSpecHash": "QGTZzZlnonDBCn72aIBeTQLYnZ3dB9myJAI//vxo7iQNQQJS81ZtDr6yS5reobKbGRxql3I+vF6qsvgdodIqBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ENovaDev\\Source\\Repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
+  "projectFilePath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ENovaDev\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
