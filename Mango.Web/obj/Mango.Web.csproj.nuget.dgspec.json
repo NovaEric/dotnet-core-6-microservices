@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Web\\Mango.Web.csproj": {}
+    "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Web\\Mango.Web.csproj": {
+    "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Web\\Mango.Web.csproj",
+        "projectUniqueName": "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj",
         "projectName": "Mango.Web",
-        "projectPath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Web\\Mango.Web.csproj",
-        "packagesPath": "C:\\Users\\ENovaDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Web\\obj\\",
+        "projectPath": "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj",
+        "packagesPath": "C:\\Users\\enova\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ENovaDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\enova\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
