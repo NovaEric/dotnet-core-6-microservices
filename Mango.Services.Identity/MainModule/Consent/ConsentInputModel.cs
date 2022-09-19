@@ -2,9 +2,7 @@
 // See LICENSE in the project root for license information.
 
 
-using System.Collections.Generic;
-
-namespace IdentityServerHost.Quickstart.UI
+namespace Mango.Services.Identity.MainModule.Consent
 {
     public class ConsentInputModel
     {

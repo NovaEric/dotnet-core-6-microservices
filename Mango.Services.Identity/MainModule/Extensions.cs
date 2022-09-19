@@ -2,11 +2,11 @@
 // See LICENSE in the project root for license information.
 
 
-using System;
 using Duende.IdentityServer.Models;
+using Mango.Services.Identity.MainModule.Account;
 using Microsoft.AspNetCore.Mvc;
 
-namespace IdentityServerHost.Quickstart.UI
+namespace Mango.Services.Identity.MainModule
 {
     public static class Extensions
     {

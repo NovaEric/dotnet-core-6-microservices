@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Mango.Services.Identity.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220901145507_ConfigureDefaultIdentityTable")]
-    partial class ConfigureDefaultIdentityTable
+    [Migration("20220914145154_ConfigIdentityServer")]
+    partial class ConfigIdentityServer
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -42,6 +42,12 @@ namespace Mango.Services.Identity.Migrations
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
+
+                    b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");

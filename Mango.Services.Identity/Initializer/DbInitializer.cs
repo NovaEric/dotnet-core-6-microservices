@@ -6,11 +6,12 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Mango.Services.Identity.Initializer
 {
-    public class DbInitializer : IDbInitialize
+    public class DbInitializer : IDbInitializer
     {
         private readonly ApplicationDbContext _db;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+
 
         public DbInitializer(ApplicationDbContext db, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
@@ -25,10 +26,7 @@ namespace Mango.Services.Identity.Initializer
                 _roleManager.CreateAsync(new IdentityRole(SD.Admin)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(SD.Customer)).GetAwaiter().GetResult();
             }
-            else
-            {
-                return;
-            }
+            else { return; }
 
             ApplicationUser adminUser = new ApplicationUser()
             {
@@ -40,7 +38,7 @@ namespace Mango.Services.Identity.Initializer
                 LastName = "Nova"
             };
 
-            _userManager.CreateAsync(adminUser, "Admin123").GetAwaiter().GetResult();
+            _userManager.CreateAsync(adminUser, "Admin123*").GetAwaiter().GetResult();
             _userManager.AddToRoleAsync(adminUser, SD.Admin).GetAwaiter().GetResult();
 
             var temp1 = _userManager.AddClaimsAsync(adminUser, new Claim[]
@@ -62,7 +60,7 @@ namespace Mango.Services.Identity.Initializer
                 LastName = "Nova"
             };
 
-            _userManager.CreateAsync(customerUser, "Admin123").GetAwaiter().GetResult();
+            _userManager.CreateAsync(customerUser, "Admin123*").GetAwaiter().GetResult();
             _userManager.AddToRoleAsync(customerUser, SD.Customer).GetAwaiter().GetResult();
 
             var temp2 = _userManager.AddClaimsAsync(customerUser, new Claim[]

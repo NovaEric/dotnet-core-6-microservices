@@ -4,7 +4,7 @@
 
 using Duende.IdentityServer.Models;
 
-namespace IdentityServerHost.Quickstart.UI
+namespace Mango.Services.Identity.MainModule.Consent
 {
     public class ProcessConsentResult
     {

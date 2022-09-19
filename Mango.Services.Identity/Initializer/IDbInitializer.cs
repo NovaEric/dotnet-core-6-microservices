@@ -1,6 +1,6 @@
 ﻿namespace Mango.Services.Identity.Initializer
 {
-    public interface IDbInitialize
+    public interface IDbInitializer
     {
         public void Initialize();
     }

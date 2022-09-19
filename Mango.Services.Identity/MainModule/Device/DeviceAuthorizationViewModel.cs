@@ -2,7 +2,9 @@
 // See LICENSE in the project root for license information.
 
 
-namespace IdentityServerHost.Quickstart.UI
+using Mango.Services.Identity.MainModule.Consent;
+
+namespace Mango.Services.Identity.MainModule.Device
 {
     public class DeviceAuthorizationViewModel : ConsentViewModel
     {

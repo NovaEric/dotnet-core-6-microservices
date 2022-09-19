@@ -26,14 +26,14 @@ namespace Mango.Web.Controllers
         }
 
         [Authorize]
-        public IActionResult Login()
+        public async Task<IActionResult> Login()
         {
             return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Logout()
         {
-            return SignOut("Cookies", "iodc");
+            return SignOut("Cookies", "oidc");
         }
     }
 }

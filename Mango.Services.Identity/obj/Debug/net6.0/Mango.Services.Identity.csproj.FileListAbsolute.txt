@@ -389,3 +389,8 @@ C:\Users\enova\source\repos\MangoRestaurant\Mango.Services.Identity\obj\Debug\ne
 C:\Users\enova\source\repos\MangoRestaurant\Mango.Services.Identity\obj\Debug\net6.0\Mango.Services.Identity.genruntimeconfig.cache
 C:\Users\enova\source\repos\MangoRestaurant\Mango.Services.Identity\obj\Debug\net6.0\ref\Mango.Services.Identity.dll
 C:\Users\enova\source\repos\MangoRestaurant\Mango.Services.Identity\bin\Debug\net6.0\keys\is-signing-key-D754AE8E7E612C2CDF6251BA03A63214.json
+C:\Users\enova\source\repos\MangoRestaurant\Mango.Services.Identity\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\enova\source\repos\MangoRestaurant\Mango.Services.Identity\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\enova\source\repos\MangoRestaurant\Mango.Services.Identity\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\enova\source\repos\MangoRestaurant\Mango.Services.Identity\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
+C:\Users\enova\source\repos\MangoRestaurant\Mango.Services.Identity\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll

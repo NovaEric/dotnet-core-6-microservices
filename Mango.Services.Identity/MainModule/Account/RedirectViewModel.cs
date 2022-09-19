@@ -3,7 +3,7 @@
 
 
 
-namespace IdentityServerHost.Quickstart.UI
+namespace Mango.Services.Identity.MainModule.Account
 {
     public class RedirectViewModel
     {

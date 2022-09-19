@@ -1,4 +1,4 @@
-@model LoginViewModel
+@model Mango.Services.Identity.MainModule.Account.LoginViewModel
 
 <div class="login-page">
     <div class="lead">
@@ -42,8 +42,11 @@
                                 </div>
                             }
                             <button class="btn btn-primary" name="button" value="login">Login</button>
-                            <button class="btn btn-secondary" name="button" value="cancel">Cancel</button>
+                            <a class="btn btn-secondary" href="https://localhost:7090" >Cancel</a>
                         </form>
+                    </div>
+                    <div class="card-footer">
+                        <a href="@Url.Action("Register", new {Model.ReturnUrl})">New User? Register</a>
                     </div>
                 </div>
             </div>
