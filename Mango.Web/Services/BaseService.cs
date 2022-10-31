@@ -8,11 +8,11 @@ namespace Mango.Web.Services;
 
 public class BaseService : IBaseService
 {
-    public ProductResponseDto productResponseDtoModel { get; set; }
+    public ResponseDto ResponseDtoModel { get; set; }
     public IHttpClientFactory HttpClient { get; set; }
     public BaseService(IHttpClientFactory httpClient)
     {
-        productResponseDtoModel = new ProductResponseDto();
+        ResponseDtoModel = new ResponseDto();
         HttpClient = httpClient;
     }
 
@@ -64,7 +64,7 @@ public class BaseService : IBaseService
         }
         catch (Exception e)
         {
-            var dto = new ProductResponseDto
+            var dto = new ResponseDto
             {
                 DisplayMessage = "Error",
                 ErrorMessages = new List<string> { Convert.ToString(e.Message) },

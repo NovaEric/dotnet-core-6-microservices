@@ -25,7 +25,7 @@ namespace Mango.Web.Controllers
         public async Task<IActionResult> Index()
         {
             List<ProductRequestDto> list = new();
-            var response = await _productService.GetAllProductsAsync<ProductResponseDto>("");
+            var response = await _productService.GetAllProductsAsync<ResponseDto>("");
             if (response != null && response.IsSuccess)
             {
                 list = JsonConvert.DeserializeObject<List<ProductRequestDto>>(Convert.ToString(response.Result));
@@ -37,7 +37,7 @@ namespace Mango.Web.Controllers
         public async Task<IActionResult> Details(int productId)
         {
             ProductRequestDto model = new();
-            var response = await _productService.GetProductByIdAsync<ProductResponseDto>(productId, " ");
+            var response = await _productService.GetProductByIdAsync<ResponseDto>(productId, " ");
             if (response != null && response.IsSuccess)
             {
                 model = JsonConvert.DeserializeObject<ProductRequestDto>(Convert.ToString(response.Result));
@@ -65,7 +65,7 @@ namespace Mango.Web.Controllers
             };
 
 
-            var response = await _productService.GetProductByIdAsync<ProductResponseDto>(productDto.ProductId, " ");
+            var response = await _productService.GetProductByIdAsync<ResponseDto>(productDto.ProductId, " ");
 
             if (response != null && response.IsSuccess)
             {
@@ -77,7 +77,7 @@ namespace Mango.Web.Controllers
             cartDto.CartDetails = cartDetailsDtos;
 
             var accessToken = await HttpContext.GetTokenAsync("access_token");
-            var addToCartResp = await _cartService.AddUpdateToCart<ProductResponseDto>(cartDto, accessToken);
+            var addToCartResp = await _cartService.AddUpdateToCart<ResponseDto>(cartDto, accessToken);
 
             if (addToCartResp != null && addToCartResp.IsSuccess)
             {

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj": {}
+    "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj": {
+    "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
         "projectName": "Mango.Services.ShoppingCartAPI",
-        "projectPath": "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
-        "packagesPath": "C:\\Users\\enova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Services.ShoppingCartAPI\\obj\\",
+        "projectPath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
+        "packagesPath": "C:\\Users\\ENovaDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ShoppingCartAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\enova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ENovaDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }

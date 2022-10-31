@@ -89,10 +89,10 @@ namespace Mango.Services.ShoppingCartAPI.Models.Repository
             try
             {
                 CartDetails cartDetails =
-                    await _db.CartDetails.FirstOrDefaultAsync(u => u.CartHeaderId == cartDetailsId);
+                    await _db.CartDetails.FirstOrDefaultAsync(u => u.CartDetailsId == cartDetailsId);
 
                 int totalCountOfCartItems =
-                    _db.CartDetails.Count(u => u.CartHeaderId == cartDetails.CartDetailsId);
+                    _db.CartDetails.Where(u => u.CartHeaderId == cartDetails.CartDetailsId).Count();
 
                 _db.CartDetails.Remove(cartDetails);
 

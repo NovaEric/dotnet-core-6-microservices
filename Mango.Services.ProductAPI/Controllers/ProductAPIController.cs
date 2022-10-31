@@ -8,13 +8,13 @@ namespace Mango.Services.ProductAPI.Controllers
     [Route("api/products")]
     public class ProductAPIController : ControllerBase
     {
-        protected ProductResponseDto _productResponseDto;
+        protected ResponseDto _ResponseDto;
         private IProductRepository _productRepository;
 
         public ProductAPIController(IProductRepository productRepository)
         {
             _productRepository = productRepository;
-            this._productResponseDto = new ProductResponseDto();
+            this._ResponseDto = new ResponseDto();
         }
 
         [HttpGet]
@@ -23,17 +23,17 @@ namespace Mango.Services.ProductAPI.Controllers
             try
             {
                 IEnumerable<ProductRequestDto> productRequestDtos = await _productRepository.GetAllProducts();
-                _productResponseDto.Result = productRequestDtos;
-                _productResponseDto.IsSuccess = true;
+                _ResponseDto.Result = productRequestDtos;
+                _ResponseDto.IsSuccess = true;
 
             }
             catch (Exception e)
             {
-                _productResponseDto.IsSuccess = false;
-                _productResponseDto.ErrorMessages = new List<string>() { e.ToString() };
+                _ResponseDto.IsSuccess = false;
+                _ResponseDto.ErrorMessages = new List<string>() { e.ToString() };
 
             }
-            return _productResponseDto;
+            return _ResponseDto;
         }
 
         [HttpGet]
@@ -43,16 +43,16 @@ namespace Mango.Services.ProductAPI.Controllers
             try
             {
                 ProductRequestDto productRequestDto = await _productRepository.GetProductById(id);
-                _productResponseDto.Result = productRequestDto;
-                _productResponseDto.IsSuccess = true;
+                _ResponseDto.Result = productRequestDto;
+                _ResponseDto.IsSuccess = true;
             }
             catch (Exception e)
             {
-                _productResponseDto.IsSuccess = false;
-                _productResponseDto.ErrorMessages = new List<string>() { e.ToString() };
+                _ResponseDto.IsSuccess = false;
+                _ResponseDto.ErrorMessages = new List<string>() { e.ToString() };
             }
 
-            return _productResponseDto;
+            return _ResponseDto;
         }
 
         [HttpPost]
@@ -63,16 +63,16 @@ namespace Mango.Services.ProductAPI.Controllers
             {
                 ProductRequestDto productRequestDtoModel =
                     await _productRepository.CreateUpdateProduct(productRequestDto);
-                _productResponseDto.Result = productRequestDtoModel;
-                _productResponseDto.IsSuccess = true;
+                _ResponseDto.Result = productRequestDtoModel;
+                _ResponseDto.IsSuccess = true;
             }
             catch (Exception e)
             {
-                _productResponseDto.IsSuccess = false;
-                _productResponseDto.ErrorMessages = new List<string>() { e.ToString() };
+                _ResponseDto.IsSuccess = false;
+                _ResponseDto.ErrorMessages = new List<string>() { e.ToString() };
             }
 
-            return _productResponseDto;
+            return _ResponseDto;
         }
 
         [HttpPut]
@@ -83,16 +83,16 @@ namespace Mango.Services.ProductAPI.Controllers
             {
                 ProductRequestDto productRequestDtoModel =
                     await _productRepository.CreateUpdateProduct(productRequestDto);
-                _productResponseDto.Result = productRequestDtoModel;
-                _productResponseDto.IsSuccess = true;
+                _ResponseDto.Result = productRequestDtoModel;
+                _ResponseDto.IsSuccess = true;
             }
             catch (Exception e)
             {
-                _productResponseDto.IsSuccess = false;
-                _productResponseDto.ErrorMessages = new List<string>() { e.ToString() };
+                _ResponseDto.IsSuccess = false;
+                _ResponseDto.ErrorMessages = new List<string>() { e.ToString() };
             }
 
-            return _productResponseDto;
+            return _ResponseDto;
         }
 
         [HttpDelete]
@@ -103,16 +103,16 @@ namespace Mango.Services.ProductAPI.Controllers
             try
             {
                 bool isSuccessDto = await _productRepository.DeleteProduct(id);
-                _productResponseDto.Result = isSuccessDto;
-                _productResponseDto.IsSuccess = true;
+                _ResponseDto.Result = isSuccessDto;
+                _ResponseDto.IsSuccess = true;
             }
             catch (Exception e)
             {
-                _productResponseDto.IsSuccess = false;
-                _productResponseDto.ErrorMessages = new List<string>() { e.ToString() };
+                _ResponseDto.IsSuccess = false;
+                _ResponseDto.ErrorMessages = new List<string>() { e.ToString() };
             }
 
-            return _productResponseDto;
+            return _ResponseDto;
         }
 
     }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj": {}
+    "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj": {
+    "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
         "projectName": "Mango.Services.CouponAPI",
-        "projectPath": "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
-        "packagesPath": "C:\\Users\\enova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\enova\\source\\repos\\MangoRestaurant\\Mango.Services.CouponAPI\\obj\\",
+        "projectPath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
+        "packagesPath": "C:\\Users\\ENovaDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.CouponAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\enova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ENovaDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }

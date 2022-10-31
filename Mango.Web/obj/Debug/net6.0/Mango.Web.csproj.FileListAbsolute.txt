@@ -62,3 +62,11 @@ C:\Users\enova\source\repos\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft
 C:\Users\enova\source\repos\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\enova\source\repos\MangoRestaurant\Mango.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\enova\source\repos\MangoRestaurant\Mango.Web\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\System.Security.Permissions.dll

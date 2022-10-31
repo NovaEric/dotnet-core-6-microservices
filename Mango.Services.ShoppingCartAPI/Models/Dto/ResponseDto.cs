@@ -1,6 +1,6 @@
-﻿namespace Mango.Services.ProductAPI.Models.Dto
+﻿namespace Mango.Services.ShoppingCartAPI.Models.Dto
 {
-    public class ProductResponseDto
+    public class ResponseDto
     {
         public bool IsSuccess { get; set; } = true;
         public object Result { get; set; }

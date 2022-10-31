@@ -25,7 +25,7 @@ namespace Mango.Web.Controllers
         public async Task<IActionResult> Remove(int cartDetailsId)
         {
             var accessToken = await HttpContext.GetTokenAsync("access_token");
-            var response = await _cartService.RemoveFromCartAsync<ProductResponseDto>(cartDetailsId, accessToken);
+            var response = await _cartService.RemoveFromCartAsync<ResponseDto>(cartDetailsId, accessToken);
 
             if (response != null && response.IsSuccess)
             {
@@ -39,7 +39,7 @@ namespace Mango.Web.Controllers
         {
             var userId = User.Claims.Where(u => u.Type == "sub")?.FirstOrDefault()?.Value;
             var accessToken = await HttpContext.GetTokenAsync("access_token");
-            var response = await _cartService.GetCartByUserIdAsync<ProductResponseDto>(userId, accessToken);
+            var response = await _cartService.GetCartByUserIdAsync<ResponseDto>(userId, accessToken);
 
             CartDto cartDto = new();
 

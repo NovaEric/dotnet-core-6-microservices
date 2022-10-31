@@ -5,16 +5,16 @@ using Microsoft.AspNetCore.Mvc;
 namespace Mango.Services.ShoppingCartAPI.Controllers
 {
     [ApiController]
-    [Route("api/cart")]
+    [Route("api/cart/")]
     public class CartController : Controller
     {
         private readonly ICartRepository _cartRepository;
-        protected ProductResponseDto _response;
+        protected ResponseDto _response;
 
         public CartController(ICartRepository cartRepository)
         {
             _cartRepository = cartRepository;
-            this._response = new ProductResponseDto();
+            this._response = new ResponseDto();
         }
 
         [HttpGet("GetCart/{userId}")]
