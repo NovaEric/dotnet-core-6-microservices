@@ -12,4 +12,7 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\ENovaDev\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)postsharp\6.11.1-preview\build\PostSharp.props" Condition="Exists('$(NuGetPackageRoot)postsharp\6.11.1-preview\build\PostSharp.props')" />
+  </ImportGroup>
 </Project>

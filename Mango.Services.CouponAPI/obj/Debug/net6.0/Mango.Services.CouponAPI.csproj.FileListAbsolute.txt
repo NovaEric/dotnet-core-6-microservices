@@ -59,7 +59,11 @@ C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.Coupon
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.CouponAPI\obj\Debug\net6.0\scopedcss\bundle\Mango.Services.CouponAPI.styles.css
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.CouponAPI\obj\Debug\net6.0\Mango.Services.CouponAPI.csproj.CopyComplete
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.CouponAPI\obj\Debug\net6.0\Mango.Services.CouponAPI.dll
-C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.CouponAPI\obj\Debug\net6.0\refint\Mango.Services.CouponAPI.dll
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.CouponAPI\obj\Debug\net6.0\Mango.Services.CouponAPI.pdb
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.CouponAPI\obj\Debug\net6.0\Mango.Services.CouponAPI.genruntimeconfig.cache
-C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.CouponAPI\obj\Debug\net6.0\ref\Mango.Services.CouponAPI.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.CouponAPI\bin\Debug\net6.0\Mango.Services.CouponAPI.pssym
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.CouponAPI\bin\Debug\net6.0\Mango.Services.CouponAPI.pspdb
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.CouponAPI\bin\Debug\net6.0\PostSharp.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.CouponAPI\obj\Debug\net6.0\PostSharp\touch
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.CouponAPI\obj\Debug\net6.0\PostSharp\AdditionalBuildDependencies.txt
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.CouponAPI\obj\Debug\net6.0\PostSharp\postsharp.app.config

@@ -124,7 +124,11 @@ C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.Produc
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ProductAPI\obj\Debug\net6.0\scopedcss\bundle\Mango.Services.ProductAPI.styles.css
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.csproj.CopyComplete
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.dll
-C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ProductAPI\obj\Debug\net6.0\refint\Mango.Services.ProductAPI.dll
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.pdb
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.genruntimeconfig.cache
-C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ProductAPI\obj\Debug\net6.0\ref\Mango.Services.ProductAPI.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ProductAPI\bin\Debug\net6.0\Mango.Services.ProductAPI.pssym
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ProductAPI\bin\Debug\net6.0\Mango.Services.ProductAPI.pspdb
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ProductAPI\bin\Debug\net6.0\PostSharp.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ProductAPI\obj\Debug\net6.0\PostSharp\touch
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ProductAPI\obj\Debug\net6.0\PostSharp\AdditionalBuildDependencies.txt
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ProductAPI\obj\Debug\net6.0\PostSharp\postsharp.app.config

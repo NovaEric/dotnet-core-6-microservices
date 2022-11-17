@@ -50,10 +50,8 @@ C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\obj\Debug\n
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\obj\Debug\net6.0\scopedcss\projectbundle\Mango.Web.bundle.scp.css
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\obj\Debug\net6.0\Mango.Web.csproj.CopyComplete
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\obj\Debug\net6.0\Mango.Web.dll
-C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\obj\Debug\net6.0\refint\Mango.Web.dll
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\obj\Debug\net6.0\Mango.Web.pdb
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\obj\Debug\net6.0\Mango.Web.genruntimeconfig.cache
-C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\obj\Debug\net6.0\ref\Mango.Web.dll
 C:\Users\enova\source\repos\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\Users\enova\source\repos\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\enova\source\repos\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -70,3 +68,9 @@ C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\n
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\Mango.Web.pssym
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\Mango.Web.pspdb
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Web\bin\Debug\net6.0\PostSharp.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Web\obj\Debug\net6.0\PostSharp\touch
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Web\obj\Debug\net6.0\PostSharp\AdditionalBuildDependencies.txt
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Web\obj\Debug\net6.0\PostSharp\postsharp.app.config

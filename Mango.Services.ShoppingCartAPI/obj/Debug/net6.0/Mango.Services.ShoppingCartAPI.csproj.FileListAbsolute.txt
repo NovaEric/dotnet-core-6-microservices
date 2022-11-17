@@ -126,7 +126,11 @@ C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.Shoppi
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\scopedcss\bundle\Mango.Services.ShoppingCartAPI.styles.css
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\Mango.Services.ShoppingCartAPI.csproj.CopyComplete
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\Mango.Services.ShoppingCartAPI.dll
-C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\refint\Mango.Services.ShoppingCartAPI.dll
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\Mango.Services.ShoppingCartAPI.pdb
 C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\Mango.Services.ShoppingCartAPI.genruntimeconfig.cache
-C:\Users\ENovaDev\Source\Repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\ref\Mango.Services.ShoppingCartAPI.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Mango.Services.ShoppingCartAPI.pssym
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Mango.Services.ShoppingCartAPI.pspdb
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\PostSharp.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\PostSharp\touch
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\PostSharp\AdditionalBuildDependencies.txt
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\PostSharp\postsharp.app.config

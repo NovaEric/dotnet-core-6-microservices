@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "K2TDHaRjkVksybt9/aXvUDQuVm4Rt+CA9Y/sZwSsfHKf3WTYqKBq6CU0uHwpmtubwIb+n5CdoNGbACZti2KJOA==",
+  "dgSpecHash": "a0eHMVXGguYBzgQKPor7/cH7MN5XxTooDuLcBmyEsWshJjnlbhjtcIF5UQ7o2hk2M5iKnW/MqPIxUx/P+hE+ig==",
   "success": true,
   "projectFilePath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ENovaDev\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\bootstrap\\3.4.1\\bootstrap.3.4.1.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\bootstrap.v3.datetimepicker.css\\4.17.49\\bootstrap.v3.datetimepicker.css.4.17.49.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\jquery\\1.9.1\\jquery.1.9.1.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.8\\microsoft.aspnetcore.authentication.jwtbearer.6.0.8.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
@@ -38,6 +41,9 @@
     "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\moment.js\\2.9.0\\moment.js.2.9.0.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\postsharp\\6.11.1-preview\\postsharp.6.11.1-preview.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\postsharp.redist\\6.11.1-preview\\postsharp.redist.6.11.1-preview.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.4.0\\swashbuckle.aspnetcore.annotations.6.4.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
@@ -56,7 +62,10 @@
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\ENovaDev\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -10,7 +10,7 @@
         <input asp-for="CartHeader.CartHeaderId" hidden />
         <div class="">
             <div class="card border mt-4 container">
-                <div class="card-header bg-dark text-light ml-0 row ">
+                <div class="card-header bg-dark text-primary ml-0 row ">
                     <div class="col-6">
                         <i class="fa fa-shopping-cart"></i> &nbsp;
                         Shopping Cart
@@ -21,7 +21,7 @@
                 </div>
                 <div class="card-body">
                     <div class=" d-none d-lg-block">
-                        <div class="row text-info">
+                        <div class="row text-primary">
                             <div class="col-lg-2">
                             </div>
                             <div class="col-lg-5">
@@ -67,12 +67,25 @@
                     }
                     <div class="row">
                         <div class="col-6">
-                            <span>Coupon:</span>
-                            <input />
-                            <button type="submit" class="btn-success"> Apply </button>
+                            @if (string.IsNullOrEmpty(Model.CartHeader.CouponCode))
+                            {
+                                <span>Coupon:</span>
+                                <input asp-for="CartHeader.CouponCode" />
+                                <button type="submit" asp-action="ApplyCoupon" class="btn-success"> Apply </button>
+                            }else
+                            {
+                                <span>Coupon:</span>
+                                <input asp-for="CartHeader.CouponCode" disabled />
+                                <button type="submit" asp-action="RemoveCoupon" class="btn-danger"> Remove </button>
+                            }
                         </div>
                         <div class="col-6 text-end">
-                            <span class="text-danger" style="font-size:21px;">  Order Total : @string.Format("{0:c}", Model.CartHeader.OrderTotal) <br /></span>
+                            @if (Model.CartHeader.DiscountTotal > 0)
+                            {
+                                <span class="text-secondary">  Order Discount : <i class="text-danger"> - @string.Format("{0:c}", Model.CartHeader.DiscountTotal)</i><br/></span>
+                                
+                            }
+                            <span class="text-primary" style="font-size:21px;">  Order Total : @string.Format("{0:c}", Model.CartHeader.OrderTotal)</span>
                         </div>
                     </div>
                 </div>
