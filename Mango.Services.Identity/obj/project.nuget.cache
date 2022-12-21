@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7C3/lT2huyoaXECOAQnkqTN9sGAMz0ZocDW6y4O2RG/7pOor68R8wW203Qdz2o/r9hqGLD3Dt1hHJrSry4XX+Q==",
+  "dgSpecHash": "Ri74wOXSOBK7uyjH62Y4f/LYZI0EVaDY3pzcZe5qyqd3THpKoDGkG3RK1pF1j1pKon5aPUPDvf90ef4vKmJRJg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.Identity\\Mango.Services.Identity.csproj",
   "expectedPackageFiles": [

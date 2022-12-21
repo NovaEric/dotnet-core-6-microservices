@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9qeFNgr35N+4ZmfmWHeDY63QFbhwDV+Pw/jstpLvNhR7VRvPJW78mhkqqqJUs/jJuz4KnJXat6KL8ZJYaCzFQg==",
+  "dgSpecHash": "QclesV5Sfv0sM9BMEX+pHTfJoTANueLbFiGHeQQtftNuGgB9EiytbCIuQV6bXs2x8tGwzHmWgodRCT8KPylYkg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
   "expectedPackageFiles": [

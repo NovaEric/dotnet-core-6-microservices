@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a0eHMVXGguYBzgQKPor7/cH7MN5XxTooDuLcBmyEsWshJjnlbhjtcIF5UQ7o2hk2M5iKnW/MqPIxUx/P+hE+ig==",
+  "dgSpecHash": "MPia9/2PIyExjLvroflG6qry2PSUPzGqAPyZx5KsQb83HSnMgJt4ZzNqA7ei3zTz85AvKY4E39L3lK0DjeH66Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
   "expectedPackageFiles": [

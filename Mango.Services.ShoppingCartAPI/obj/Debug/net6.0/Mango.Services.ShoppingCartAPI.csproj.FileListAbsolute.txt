@@ -134,3 +134,11 @@ C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Shoppi
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\PostSharp\touch
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\PostSharp\AdditionalBuildDependencies.txt
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\PostSharp\postsharp.app.config
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Microsoft.Azure.Amqp.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Mango.MessageBus.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Mango.MessageBus.pdb
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Azure.Core.Amqp.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Azure.Messaging.ServiceBus.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\System.Memory.Data.dll
