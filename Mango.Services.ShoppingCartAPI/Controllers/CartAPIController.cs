@@ -11,14 +11,16 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
     public class CartAPIController : Controller
     {
         private readonly ICartRepository _cartRepository;
+        private readonly ICouponRepository _couponRepository;
         private readonly IMessageBus _messageBus;
         protected ResponseDto _response;
 
-        public CartAPIController(ICartRepository cartRepository, IMessageBus messageBus)
+        public CartAPIController(ICartRepository cartRepository, IMessageBus messageBus, ICouponRepository couponRepository)
         {
             _cartRepository = cartRepository;
             _messageBus = messageBus;
             this._response = new ResponseDto();
+            this._couponRepository = couponRepository;
         }
 
         [HttpGet("GetCart/{userId}")]
@@ -127,6 +129,18 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
                 CartDto cartDto = await _cartRepository.GetCartByUserId(checkoutHeader.UserId);
 
                 if (cartDto == null) return BadRequest();
+
+                if (!string.IsNullOrEmpty(checkoutHeader.CouponCode))
+                {
+                    var coupon = await _couponRepository.GetCoupon(checkoutHeader.CouponCode);
+                    if (checkoutHeader.DiscountTotal != coupon.DiscountAmount) 
+                    {
+                        _response.IsSuccess = false;
+                        _response.ErrorMessages = new List<string> { "Coupon price has changed, please confirm" };
+                        _response.DisplayMessage = "Coupon price has changed, please confirm";
+                        return _response;
+                    }
+                }
 
                 checkoutHeader.CartDetails = cartDto.CartDetails;
 

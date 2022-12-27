@@ -2,6 +2,6 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.targets')" />
-    <Import Project="$(NuGetPackageRoot)postsharp\6.11.1-preview\build\PostSharp.targets" Condition="Exists('$(NuGetPackageRoot)postsharp\6.11.1-preview\build\PostSharp.targets')" />
+    <Import Project="$(NuGetPackageRoot)postsharp\6.11.2-rc\build\PostSharp.targets" Condition="Exists('$(NuGetPackageRoot)postsharp\6.11.2-rc\build\PostSharp.targets')" />
   </ImportGroup>
 </Project>

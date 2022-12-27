@@ -15,7 +15,7 @@
           "Microsoft.EntityFrameworkCore.Design": "6.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
           "Newtonsoft.Json": "13.0.1",
-          "PostSharp": "6.11.1-preview",
+          "PostSharp": "6.11.2-rc",
           "Swashbuckle.AspNetCore": "6.4.0",
           "Swashbuckle.AspNetCore.Annotations": "6.4.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.4.0"
@@ -406,16 +406,16 @@
           }
         }
       },
-      "PostSharp/6.11.1-preview": {
+      "PostSharp/6.11.2-rc": {
         "dependencies": {
-          "PostSharp.Redist": "6.11.1-preview"
+          "PostSharp.Redist": "6.11.2-rc"
         }
       },
-      "PostSharp.Redist/6.11.1-preview": {
+      "PostSharp.Redist/6.11.2-rc": {
         "runtime": {
           "lib/net6.0/PostSharp.dll": {
-            "assemblyVersion": "6.11.1.0",
-            "fileVersion": "6.11.1.0"
+            "assemblyVersion": "6.11.2.0",
+            "fileVersion": "6.11.2.0"
           }
         }
       },
@@ -628,7 +628,8 @@
       "Mango.MessageBus/1.0.0": {
         "dependencies": {
           "Azure.Messaging.ServiceBus": "7.11.1",
-          "Newtonsoft.Json": "13.0.1"
+          "Newtonsoft.Json": "13.0.1",
+          "PostSharp": "6.11.2-rc"
         },
         "runtime": {
           "Mango.MessageBus.dll": {}
@@ -915,19 +916,19 @@
       "path": "newtonsoft.json/13.0.1",
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
-    "PostSharp/6.11.1-preview": {
+    "PostSharp/6.11.2-rc": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tQCHoeiXgsCuCJFyAhHc0BUoks7cK/M9a98QpMYHZu4Jsgo2YZ2fTJCj3PdsCdTPrP14N2OJmYlo1jmmQIzmCw==",
-      "path": "postsharp/6.11.1-preview",
-      "hashPath": "postsharp.6.11.1-preview.nupkg.sha512"
+      "sha512": "sha512-ixjqdLioIaS86ogz5o3dh2RE8rJRmATDzow0WuJmbdlx1Ro4FhEvKdg6v9VsiHAsnO4ZJnwxuAEQ3hXN2pZFyQ==",
+      "path": "postsharp/6.11.2-rc",
+      "hashPath": "postsharp.6.11.2-rc.nupkg.sha512"
     },
-    "PostSharp.Redist/6.11.1-preview": {
+    "PostSharp.Redist/6.11.2-rc": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-n5mhDJUisNwKIqQCvRsw1PFWj4LTdYuX/yVZY3aPzav8F+GrgDBSD4QD83SqEkcqPsMHRCXhJ1notERk4CXl+g==",
-      "path": "postsharp.redist/6.11.1-preview",
-      "hashPath": "postsharp.redist.6.11.1-preview.nupkg.sha512"
+      "sha512": "sha512-n+2+qqiYixgRl2XUx01bGLoucBLQVIX9PdUDnj3BbMqlwsCBdbuhy6qvTj1se924cJjVGQMpXqyam6mOLuhxOw==",
+      "path": "postsharp.redist/6.11.2-rc",
+      "hashPath": "postsharp.redist.6.11.2-rc.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",

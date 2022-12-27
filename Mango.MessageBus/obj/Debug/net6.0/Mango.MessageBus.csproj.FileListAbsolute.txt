@@ -1,3 +1,5 @@
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\bin\Debug\net6.0\Mango.MessageBus.pssym
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\bin\Debug\net6.0\Mango.MessageBus.pspdb
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\bin\Debug\net6.0\Mango.MessageBus.deps.json
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\bin\Debug\net6.0\Mango.MessageBus.dll
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\bin\Debug\net6.0\Mango.MessageBus.pdb
@@ -6,7 +8,8 @@ C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\obj\
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\obj\Debug\net6.0\Mango.MessageBus.AssemblyInfoInputs.cache
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\obj\Debug\net6.0\Mango.MessageBus.AssemblyInfo.cs
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\obj\Debug\net6.0\Mango.MessageBus.csproj.CoreCompileInputs.cache
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\obj\Debug\net6.0\PostSharp\touch
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\obj\Debug\net6.0\PostSharp\AdditionalBuildDependencies.txt
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\obj\Debug\net6.0\Mango.MessageBus.dll
-C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\obj\Debug\net6.0\refint\Mango.MessageBus.dll
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\obj\Debug\net6.0\Mango.MessageBus.pdb
-C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\obj\Debug\net6.0\ref\Mango.MessageBus.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\obj\Debug\net6.0\PostSharp\postsharp.app.config

@@ -10,11 +10,10 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
-          "Bootstrap.v3.Datetimepicker.CSS": "4.17.49",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.8",
-          "PostSharp": "6.11.1-preview",
+          "PostSharp": "6.11.2-rc",
           "Swashbuckle.AspNetCore": "6.4.0",
           "Swashbuckle.AspNetCore.Annotations": "6.4.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.4.0"
@@ -46,17 +45,6 @@
           }
         }
       },
-      "bootstrap/3.4.1": {
-        "dependencies": {
-          "jQuery": "1.9.1"
-        }
-      },
-      "Bootstrap.v3.Datetimepicker.CSS/4.17.49": {
-        "dependencies": {
-          "Moment.js": "2.9.0",
-          "bootstrap": "3.4.1"
-        }
-      },
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -65,7 +53,6 @@
           }
         }
       },
-      "jQuery/1.9.1": {},
       "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.8": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.0"
@@ -355,17 +342,16 @@
           }
         }
       },
-      "Moment.js/2.9.0": {},
-      "PostSharp/6.11.1-preview": {
+      "PostSharp/6.11.2-rc": {
         "dependencies": {
-          "PostSharp.Redist": "6.11.1-preview"
+          "PostSharp.Redist": "6.11.2-rc"
         }
       },
-      "PostSharp.Redist/6.11.1-preview": {
+      "PostSharp.Redist/6.11.2-rc": {
         "runtime": {
           "lib/net6.0/PostSharp.dll": {
-            "assemblyVersion": "6.11.1.0",
-            "fileVersion": "6.11.1.0"
+            "assemblyVersion": "6.11.2.0",
+            "fileVersion": "6.11.2.0"
           }
         }
       },
@@ -580,33 +566,12 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/11.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512"
     },
-    "bootstrap/3.4.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-rnqnZV4sFAgB240hnLRwqoUaV2DfzrYsc6PbsYzRTObrrucLZyvb+8F1yTVT1sDbXMi/NXlyRmiL6wF+d4ZJMA==",
-      "path": "bootstrap/3.4.1",
-      "hashPath": "bootstrap.3.4.1.nupkg.sha512"
-    },
-    "Bootstrap.v3.Datetimepicker.CSS/4.17.49": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-L9cJ+BibhmOw/O40CnuOGlWpgculIszHMR6Kov1GNV8IYijI04LRWl2moSW4ByzN6+toqj3LI+3FF8ff+0YXeQ==",
-      "path": "bootstrap.v3.datetimepicker.css/4.17.49",
-      "hashPath": "bootstrap.v3.datetimepicker.css.4.17.49.nupkg.sha512"
-    },
     "Humanizer.Core/2.8.26": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
-    },
-    "jQuery/1.9.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-HiX9icLyiJGgiL5EOIn0d1MBPHVV2M9mzWT4mANdniDNR51RvAFTyKEXEd2+5yQJ4PJ5xePOR61Vjj/omQzYcw==",
-      "path": "jquery/1.9.1",
-      "hashPath": "jquery.1.9.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.8": {
       "type": "package",
@@ -825,26 +790,19 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
-    "Moment.js/2.9.0": {
+    "PostSharp/6.11.2-rc": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4rhbvFzmgXp/gjvwjxt9Qjmdz+2CD9T99erXEDtZHlYxaI06F9A4628/Vpxklm8D9RmwJjKjp1244FwEh+a5WQ==",
-      "path": "moment.js/2.9.0",
-      "hashPath": "moment.js.2.9.0.nupkg.sha512"
+      "sha512": "sha512-ixjqdLioIaS86ogz5o3dh2RE8rJRmATDzow0WuJmbdlx1Ro4FhEvKdg6v9VsiHAsnO4ZJnwxuAEQ3hXN2pZFyQ==",
+      "path": "postsharp/6.11.2-rc",
+      "hashPath": "postsharp.6.11.2-rc.nupkg.sha512"
     },
-    "PostSharp/6.11.1-preview": {
+    "PostSharp.Redist/6.11.2-rc": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tQCHoeiXgsCuCJFyAhHc0BUoks7cK/M9a98QpMYHZu4Jsgo2YZ2fTJCj3PdsCdTPrP14N2OJmYlo1jmmQIzmCw==",
-      "path": "postsharp/6.11.1-preview",
-      "hashPath": "postsharp.6.11.1-preview.nupkg.sha512"
-    },
-    "PostSharp.Redist/6.11.1-preview": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-n5mhDJUisNwKIqQCvRsw1PFWj4LTdYuX/yVZY3aPzav8F+GrgDBSD4QD83SqEkcqPsMHRCXhJ1notERk4CXl+g==",
-      "path": "postsharp.redist/6.11.1-preview",
-      "hashPath": "postsharp.redist.6.11.1-preview.nupkg.sha512"
+      "sha512": "sha512-n+2+qqiYixgRl2XUx01bGLoucBLQVIX9PdUDnj3BbMqlwsCBdbuhy6qvTj1se924cJjVGQMpXqyam6mOLuhxOw==",
+      "path": "postsharp.redist/6.11.2-rc",
+      "hashPath": "postsharp.redist.6.11.2-rc.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",

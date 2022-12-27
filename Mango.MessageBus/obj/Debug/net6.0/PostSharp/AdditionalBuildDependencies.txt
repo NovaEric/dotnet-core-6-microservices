@@ -1,0 +1,1 @@
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.MessageBus\obj\Debug\net6.0\PostSharp\PostSharp.Compiler.Engine.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ri74wOXSOBK7uyjH62Y4f/LYZI0EVaDY3pzcZe5qyqd3THpKoDGkG3RK1pF1j1pKon5aPUPDvf90ef4vKmJRJg==",
+  "dgSpecHash": "jBCoPTI4wMeFBfxRi3DnlKVXE+2QwYrCeXfFa8Y5ej7qbSvfbse5s5UrgdBSjpp0rFlpRYz5sD7CW32XpZ/5Zw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.Identity\\Mango.Services.Identity.csproj",
   "expectedPackageFiles": [
@@ -70,8 +70,8 @@
     "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\ENovaDev\\.nuget\\packages\\postsharp\\6.11.1-preview\\postsharp.6.11.1-preview.nupkg.sha512",
-    "C:\\Users\\ENovaDev\\.nuget\\packages\\postsharp.redist\\6.11.1-preview\\postsharp.redist.6.11.1-preview.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\postsharp\\6.11.2-rc\\postsharp.6.11.2-rc.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\postsharp.redist\\6.11.2-rc\\postsharp.redist.6.11.2-rc.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
@@ -94,9 +94,9 @@
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
-    "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
