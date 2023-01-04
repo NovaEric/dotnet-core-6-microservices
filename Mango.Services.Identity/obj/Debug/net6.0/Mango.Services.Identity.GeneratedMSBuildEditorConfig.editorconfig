@@ -5,101 +5,100 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Mango.Services.Identity
 build_property.RootNamespace = Mango.Services.Identity
-build_property.ProjectDir = C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Identity\
+build_property.ProjectDir = /Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Identity
+build_property.MSBuildProjectDirectory = /Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Account/AccessDenied.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9BY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Account/LoggedOut.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dnZWRPdXQuY3NodG1s
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Account/LoggedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dnZWRPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Account/Logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXQuY3NodG1s
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Consent/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc2VudFxJbmRleC5jc2h0bWw=
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Consent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29uc2VudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Device/Success.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFN1Y2Nlc3MuY3NodG1s
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Device/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGV2aWNlL1N1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Device/UserCodeCapture.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFVzZXJDb2RlQ2FwdHVyZS5jc2h0bWw=
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Device/UserCodeCapture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGV2aWNlL1VzZXJDb2RlQ2FwdHVyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Device/UserCodeConfirmation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFVzZXJDb2RlQ29uZmlybWF0aW9uLmNzaHRtbA==
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Device/UserCodeConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGV2aWNlL1VzZXJDb2RlQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Diagnostics/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY3NcSW5kZXguY3NodG1s
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Diagnostics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlhZ25vc3RpY3MvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Grants/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhbnRzXEluZGV4LmNzaHRtbA==
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Grants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3JhbnRzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/Redirect.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlZGlyZWN0LmNzaHRtbA==
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/Redirect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1JlZGlyZWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/_Nav.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXYuY3NodG1s
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19OYXYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/_ScopeListItem.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TY29wZUxpc3RJdGVtLmNzaHRtbA==
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TY29wZUxpc3RJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/_ValidationSummary.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU3VtbWFyeS5jc2h0bWw=
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/_ValidationSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU3VtbWFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ENovaDev/source/repos/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-pm7e7uik4z
+[/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.Identity/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-q8dkyu3p1q

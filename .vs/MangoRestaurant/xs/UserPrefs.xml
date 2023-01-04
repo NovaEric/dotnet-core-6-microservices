@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{5098E634-3FB8-410E-980E-341ECD40DC28}|Default">
+  <MonoDevelop.Ide.ItemProperties.FrontEnd.Mango.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mango.Web/Controllers/CartController.cs">
+    <Files>
+      <File FileName="Mango.Web/Views/Cart/Checkout.cshtml" Line="15" Column="59" />
+      <File FileName="Mango.Web/Controllers/CartController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MangoRestaurant" expanded="True">
+            <Node name="FrontEnd" expanded="True">
+              <Node name="Mango.Web" expanded="True">
+                <Node name="Controllers" expanded="True">
+                  <Node name="CartController.cs" selected="True" />
+                </Node>
+                <Node name="Views" expanded="True">
+                  <Node name="Cart" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Services" expanded="True">
+              <Node name="Mango.Services.ShoppingCartAPI" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
