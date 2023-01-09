@@ -14,7 +14,7 @@ namespace Mango.Services.CouponAPI.Controllers
         public CouponAPIController(ICouponRepository couponRepository)
         {
             _couponRepository = couponRepository;
-            _response = new ResponseDto();
+            this._response = new ResponseDto();
         }
 
         [HttpGet("{code}")]

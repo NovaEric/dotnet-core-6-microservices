@@ -79,3 +79,5 @@ C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.OrderA
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.OrderAPI\obj\Debug\net6.0\Mango.Services.OrderAPI.pdb
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.OrderAPI\obj\Debug\net6.0\Mango.Services.OrderAPI.genruntimeconfig.cache
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.OrderAPI\obj\Debug\net6.0\PostSharp\postsharp.app.config
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.OrderAPI\bin\Debug\net6.0\Mango.MessageBus.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.OrderAPI\bin\Debug\net6.0\Mango.MessageBus.pdb

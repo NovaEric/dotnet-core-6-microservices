@@ -1018,6 +1018,14 @@
           }
         }
       },
+      "Mango.MessageBus/1.0.0": {
+        "dependencies": {
+          "Azure.Messaging.ServiceBus": "7.11.1",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {},
+        "runtimeTargets": {}
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {
         "dependencies": {},
         "runtime": {},
@@ -1791,6 +1799,13 @@
       "sha512": "",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "Mango.MessageBus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": "",
+      "path": "",
+      "hashPath": ""
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",

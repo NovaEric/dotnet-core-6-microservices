@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.ProductAPI/Mango.Services.ProductAPI.csproj": {}
+    "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj": {}
   },
   "projects": {
-    "/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.ProductAPI/Mango.Services.ProductAPI.csproj": {
+    "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.ProductAPI/Mango.Services.ProductAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
         "projectName": "Mango.Services.ProductAPI",
-        "projectPath": "/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.ProductAPI/Mango.Services.ProductAPI.csproj",
-        "packagesPath": "/Users/enova/.nuget/packages/",
-        "outputPath": "/Users/enova/Desktop/dotnet-core-6-microservices/Mango.Services.ProductAPI/obj/",
+        "projectPath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
+        "packagesPath": "C:\\Users\\ENovaDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.ProductAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/enova/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ENovaDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -92,6 +94,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -100,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

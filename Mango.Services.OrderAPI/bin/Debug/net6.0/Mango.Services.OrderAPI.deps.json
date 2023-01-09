@@ -10,6 +10,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Azure.Messaging.ServiceBus": "7.11.1",
+          "Mango.MessageBus": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.8",
@@ -615,6 +616,16 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "Mango.MessageBus/1.0.0": {
+        "dependencies": {
+          "Azure.Messaging.ServiceBus": "7.11.1",
+          "Newtonsoft.Json": "13.0.1",
+          "PostSharp": "6.11.2-rc"
+        },
+        "runtime": {
+          "Mango.MessageBus.dll": {}
+        }
       }
     }
   },
@@ -1085,6 +1096,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "Mango.MessageBus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

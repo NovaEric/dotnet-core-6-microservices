@@ -136,7 +136,7 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
                     if (checkoutHeader.DiscountTotal != coupon.DiscountAmount) 
                     {
                         _response.IsSuccess = false;
-                        _response.ErrorMessages = new List<string> { "Coupon price has changed, please confirm" };
+                        _response.ErrorMessages = new List<string>() { "Coupon price has changed, please confirm" };
                         _response.DisplayMessage = "Coupon price has changed, please confirm";
                         return _response;
                     }
@@ -149,7 +149,7 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
             catch (Exception e)
             {
                 _response.IsSuccess = false;
-                _response.ErrorMessages = new List<string> { e.ToString() };
+                _response.ErrorMessages = new List<string>() { e.ToString() };
             }
             return _response;
         }
