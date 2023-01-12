@@ -1,6 +1,6 @@
 ﻿namespace PaymentProcessor
 {
-    internal interface IProcessPayment
+    public interface IProcessPayment
     {
         public bool PaymentProcessor();
     }
