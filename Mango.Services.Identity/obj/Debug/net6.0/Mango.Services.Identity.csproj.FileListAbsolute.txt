@@ -400,6 +400,7 @@ C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Identi
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Identity\bin\Debug\net6.0\appsettings.json
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Identity\bin\Debug\net6.0\keys\is-signing-key-765B825D82C7F1C6DFCDA2BEEA928E23.json
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Identity\bin\Debug\net6.0\keys\is-signing-key-93BF0A8CBD4F7C07DA89818446DE8F97.json
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Identity\bin\Debug\net6.0\keys\is-signing-key-C20DFF6ACF75397946B1ABFE973D6574.json
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Identity\bin\Debug\net6.0\keys\is-signing-key-D754AE8E7E612C2CDF6251BA03A63214.json
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Identity\bin\Debug\net6.0\Mango.Services.Identity.staticwebassets.runtime.json
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Identity\bin\Debug\net6.0\Mango.Services.Identity.exe

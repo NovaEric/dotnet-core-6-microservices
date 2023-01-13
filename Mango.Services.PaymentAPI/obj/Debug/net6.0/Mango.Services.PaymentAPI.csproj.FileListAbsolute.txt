@@ -1,3 +1,9 @@
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.csproj.AssemblyReference.cache
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.AssemblyInfoInputs.cache
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.AssemblyInfo.cs
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.csproj.CoreCompileInputs.cache
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\bin\Debug\net6.0\appsettings.json
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\bin\Debug\net6.0\Mango.Services.PaymentAPI.exe
@@ -21,13 +27,7 @@ C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Paymen
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\bin\Debug\net6.0\PaymentProcessor.dll
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\bin\Debug\net6.0\Mango.MessageBus.pdb
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\bin\Debug\net6.0\PaymentProcessor.pdb
-C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.csproj.AssemblyReference.cache
-C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.AssemblyInfoInputs.cache
-C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.AssemblyInfo.cs
-C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.csproj.CoreCompileInputs.cache
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\staticwebassets\msbuild.Mango.Services.PaymentAPI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.Mango.Services.PaymentAPI.props
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Mango.Services.PaymentAPI.props

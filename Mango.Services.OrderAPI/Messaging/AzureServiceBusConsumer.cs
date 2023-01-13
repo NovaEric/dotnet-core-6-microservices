@@ -38,7 +38,8 @@ namespace Mango.Services.OrderAPI.Messaging
 
             var client = new ServiceBusClient(serviceBusConnectionString);
 
-            checkOutProcessor                   = client.CreateProcessor(checkoutMessageTopic, suscriptionCheckOut);
+            //checkOutProcessor                   = client.CreateProcessor(checkoutMessageTopic, suscriptionCheckOut);
+            checkOutProcessor = client.CreateProcessor(checkoutMessageTopic);
             orderUpdatePaymentStatusProcessor   = client.CreateProcessor(orderUpdatePaymentResultTopic, suscriptionCheckOut);
         }
 
@@ -75,31 +76,31 @@ namespace Mango.Services.OrderAPI.Messaging
 
             OrderHeader orderHeader = new()
             {
-                UserId = checkoutHeaderDto.UserId,
-                FirstName = checkoutHeaderDto.FirstName,
-                LastName = checkoutHeaderDto.LastName,
-                OrderDetails = new List<OrderDetails>(),
-                CardNumber = checkoutHeaderDto.CardNumber,
-                CouponCode = checkoutHeaderDto.CouponCode,
-                CVV = checkoutHeaderDto.CVV,
-                DiscountTotal = checkoutHeaderDto.DiscountTotal,
-                Email = checkoutHeaderDto.Email,
+                UserId          = checkoutHeaderDto.UserId,
+                FirstName       = checkoutHeaderDto.FirstName,
+                LastName        = checkoutHeaderDto.LastName,
+                OrderDetails    = new List<OrderDetails>(),
+                CardNumber      = checkoutHeaderDto.CardNumber,
+                CouponCode      = checkoutHeaderDto.CouponCode,
+                CVV             = checkoutHeaderDto.CVV,
+                DiscountTotal   = checkoutHeaderDto.DiscountTotal,
+                Email           = checkoutHeaderDto.Email,
                 ExpiryMonthYear = checkoutHeaderDto.ExpiryMonthYear,
-                OrderTime = DateTime.Now,
-                OrderTotal = checkoutHeaderDto.OrderTotal,
-                PaymentStatus = false,
-                Phone = checkoutHeaderDto.Phone,
-                PickDateTime = checkoutHeaderDto.PickDateTime,
+                OrderTime       = DateTime.Now,
+                OrderTotal      = checkoutHeaderDto.OrderTotal,
+                PaymentStatus   = false,
+                Phone           = checkoutHeaderDto.Phone,
+                PickDateTime    = checkoutHeaderDto.PickDateTime,
             };
 
             foreach (var detailList in checkoutHeaderDto.CartDetails)
             {
                 OrderDetails orderDetails = new()
                 {
-                    ProductId = detailList.ProductId,
-                    ProductName = detailList.Product.ProductName,
-                    Price = detailList.Product.ProductPrice,
-                    ProductCount = detailList.ProductCount
+                    ProductId       = detailList.ProductId,
+                    ProductName     = detailList.Product.ProductName,
+                    Price           = detailList.Product.ProductPrice,
+                    ProductCount    = detailList.ProductCount
                 };
 
                 orderHeader.CartTotalItems += detailList.ProductCount;
@@ -110,12 +111,13 @@ namespace Mango.Services.OrderAPI.Messaging
 
             var paymentRequestMessage = new PaymentRequestMessage()
             {
-                Name = $"{orderHeader.FirstName} {orderHeader.LastName}",
-                CardNumber = orderHeader.CardNumber,
-                CVV = orderHeader.CVV,
-                ExpiryMonthYear= orderHeader.ExpiryMonthYear,
-                OrderId = orderHeader.OrderHeaderId,
-                OrderTotal = orderHeader.OrderTotal,
+                Name            = $"{orderHeader.FirstName} {orderHeader.LastName}",
+                CardNumber      = orderHeader.CardNumber,
+                CVV             = orderHeader.CVV,
+                ExpiryMonthYear = orderHeader.ExpiryMonthYear,
+                OrderId         = orderHeader.OrderHeaderId,
+                OrderTotal      = orderHeader.OrderTotal,
+                Email           = orderHeader.Email,
             };
 
             try
