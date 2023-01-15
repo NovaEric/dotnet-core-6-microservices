@@ -10,8 +10,7 @@
         "dependencies": {
           "Mango.MessageBus": "1.0.0",
           "PaymentProcessor": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.2.3",
-          "PaymentProcessor.Reference": "1.0.0.0"
+          "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
           "Mango.Services.PaymentAPI.dll": {}
@@ -172,12 +171,9 @@
           "Mango.MessageBus.dll": {}
         }
       },
-      "PaymentProcessor.Reference/1.0.0.0": {
+      "PaymentProcessor/1.0.0": {
         "runtime": {
-          "PaymentProcessor.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "PaymentProcessor.dll": {}
         }
       }
     }
@@ -340,8 +336,8 @@
       "serviceable": false,
       "sha512": ""
     },
-    "PaymentProcessor.Reference/1.0.0.0": {
-      "type": "reference",
+    "PaymentProcessor/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }
