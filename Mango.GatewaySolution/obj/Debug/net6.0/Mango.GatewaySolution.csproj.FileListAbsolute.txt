@@ -35,3 +35,12 @@ C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.GatewaySolution
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.GatewaySolution\obj\Debug\net6.0\Mango.GatewaySolution.pdb
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.GatewaySolution\obj\Debug\net6.0\Mango.GatewaySolution.genruntimeconfig.cache
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.GatewaySolution\obj\Debug\net6.0\ref\Mango.GatewaySolution.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.GatewaySolution\obj\Debug\net6.0\Mango.GatewaySolution.Properties.Resources.resources
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.GatewaySolution\obj\Debug\net6.0\Mango.GatewaySolution.csproj.GenerateResource.cache
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.GatewaySolution\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.GatewaySolution\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.GatewaySolution\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.GatewaySolution\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.GatewaySolution\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.GatewaySolution\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.GatewaySolution\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
