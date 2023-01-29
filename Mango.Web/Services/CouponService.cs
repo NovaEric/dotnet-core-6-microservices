@@ -1,6 +1,7 @@
 ﻿using Mango.Web.Models;
+using Mango.Web.Services.IServices;
 
-namespace Mango.Web.Services.IServices
+namespace Mango.Web.Services
 {
     public class CouponService : BaseService, ICouponService
     {
@@ -13,7 +14,7 @@ namespace Mango.Web.Services.IServices
 
         public async Task<T> GetCoupon<T>(string couponCode, string token = null)
         {
-            return await this.SendAsync<T>(new ApiRequest()
+            return await SendAsync<T>(new ApiRequest()
             {
                 ApiType = SD.ApiType.GET,
                 Url = SD.CouponAPIBase + "/api/coupon/" + couponCode,
