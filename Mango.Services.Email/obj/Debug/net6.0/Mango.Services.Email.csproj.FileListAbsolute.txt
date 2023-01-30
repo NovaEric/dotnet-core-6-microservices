@@ -71,3 +71,4 @@ C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Email\
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Email\obj\Debug\net6.0\Mango.Services.Email.pdb
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Email\obj\Debug\net6.0\Mango.Services.Email.genruntimeconfig.cache
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Email\obj\Debug\net6.0\ref\Mango.Services.Email.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Email\bin\Debug\net6.0\RabbitMQ.Client.dll

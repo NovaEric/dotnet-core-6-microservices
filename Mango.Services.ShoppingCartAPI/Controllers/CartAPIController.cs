@@ -2,6 +2,7 @@
 using Mango.Services.ShoppingCartAPI.Messages;
 using Mango.Services.ShoppingCartAPI.Models.Dto;
 using Mango.Services.ShoppingCartAPI.Models.Repository;
+using Mango.Services.ShoppingCartAPI.RabbitMQSender;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Mango.Services.ShoppingCartAPI.Controllers
@@ -13,14 +14,16 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
         private readonly ICartRepository _cartRepository;
         private readonly ICouponRepository _couponRepository;
         private readonly IMessageBus _messageBus;
+        private readonly IRabbitMQCartMessageSender _rabbitMQCartMessageSender;
         protected ResponseDto _response;
 
-        public CartAPIController(ICartRepository cartRepository, IMessageBus messageBus, ICouponRepository couponRepository)
+        public CartAPIController(ICartRepository cartRepository, IMessageBus messageBus, ICouponRepository couponRepository, IRabbitMQCartMessageSender rabbitMQCartMessageSender)
         {
             _cartRepository = cartRepository;
             _messageBus = messageBus;
             this._response = new ResponseDto();
             this._couponRepository = couponRepository;
+            _rabbitMQCartMessageSender = rabbitMQCartMessageSender;
         }
 
         [HttpGet("GetCart/{userId}")]
@@ -143,9 +146,15 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
                 }
 
                 checkoutHeader.CartDetails = cartDto.CartDetails;
-                //logic to add message to process order
+                //logic to add message to process order Azure Message Bus | Topic
                 //await _messageBus.PublishMessage(checkoutHeader, "checkoutmessagetopic");
-                await _messageBus.PublishMessage(checkoutHeader, "checkoutqueue");
+
+                //logic to add message to process order Azure Message Bus | Queue
+                //await _messageBus.PublishMessage(checkoutHeader, "checkoutqueue");
+
+                //RabbitMQ
+                _rabbitMQCartMessageSender.SendMessage(checkoutHeader, "checkoutqueue");
+
                 await _cartRepository.ClearCart(checkoutHeader.UserId);
             }
             catch (Exception e)
