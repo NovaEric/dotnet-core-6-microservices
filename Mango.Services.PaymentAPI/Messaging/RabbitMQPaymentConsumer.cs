@@ -44,7 +44,7 @@ namespace Mango.Services.PaymentAPI.Messaging
                 _channel.BasicAck(eventConsumer.DeliveryTag, false);
             };
 
-            _channel.BasicConsume("checkoutqueue", false, consumer);
+            _channel.BasicConsume("orderpaymentprocesstopic", false, consumer);
 
             return Task.CompletedTask;
         }
