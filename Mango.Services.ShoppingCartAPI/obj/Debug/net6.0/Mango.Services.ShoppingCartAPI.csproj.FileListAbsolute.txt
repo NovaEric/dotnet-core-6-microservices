@@ -148,3 +148,4 @@ C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Shoppi
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\Mango.Services.ShoppingCartAPI.pdb
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\Mango.Services.ShoppingCartAPI.genruntimeconfig.cache
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\PostSharp\postsharp.app.config
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll

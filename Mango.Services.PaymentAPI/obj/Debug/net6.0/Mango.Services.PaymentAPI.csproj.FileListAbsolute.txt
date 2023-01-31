@@ -42,3 +42,4 @@ C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.Paymen
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.pdb
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\Mango.Services.PaymentAPI.genruntimeconfig.cache
 C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\obj\Debug\net6.0\ref\Mango.Services.PaymentAPI.dll
+C:\Users\ENovaDev\source\repos\dotnet-core-6-microservices\Mango.Services.PaymentAPI\bin\Debug\net6.0\RabbitMQ.Client.dll

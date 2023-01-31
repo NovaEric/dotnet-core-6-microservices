@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HHwWYiUnSn4SK1TwJweljwFRwZeJeNhmW7Nj9idS42iARgUJ1trl7guYrZmO+mSrPBjn4M0pMNOqge2DDTkXGg==",
+  "dgSpecHash": "/vJP9Dgy+y+bXuqmDGq5nYwieZ6E9kFzLhj5/ghSPE1ChFsOmQkgaMfb/SPEY/y2+b2GfzK3l7WkRkG2XCaSvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ENovaDev\\source\\repos\\dotnet-core-6-microservices\\Mango.Services.OrderAPI\\Mango.Services.OrderAPI.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,7 @@
     "C:\\Users\\ENovaDev\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\postsharp\\6.11.2-rc\\postsharp.6.11.2-rc.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\postsharp.redist\\6.11.2-rc\\postsharp.redist.6.11.2-rc.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
@@ -68,6 +69,7 @@
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\ENovaDev\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
     "C:\\Users\\ENovaDev\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",

@@ -866,6 +866,16 @@
           }
         }
       },
+      "RabbitMQ.Client/6.4.0": {
+        "dependencies": {},
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        },
+        "runtimeTargets": {}
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {},
         "runtime": {},
@@ -997,6 +1007,11 @@
         "runtimeTargets": {}
       },
       "System.Text.Json/4.7.2": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
+      "System.Threading.Channels/4.7.1": {
         "dependencies": {},
         "runtime": {},
         "runtimeTargets": {}
@@ -1693,6 +1708,13 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
+    "RabbitMQ.Client/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "rabbitmq.client/6.4.0",
+      "hashPath": "rabbitmq.client.6.4.0.nupkg.sha512"
+    },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",
       "serviceable": true,
@@ -1790,6 +1812,13 @@
       "sha512": "",
       "path": "system.text.json/4.7.2",
       "hashPath": "system.text.json.4.7.2.nupkg.sha512"
+    },
+    "System.Threading.Channels/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "system.threading.channels/4.7.1",
+      "hashPath": "system.threading.channels.4.7.1.nupkg.sha512"
     },
     "System.Threading.Tasks.Extensions/4.5.4": {
       "type": "package",
